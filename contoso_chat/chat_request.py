@@ -84,6 +84,9 @@ def get_response(customerId, question, chat_history):
 
     return {"answer": result, "context": context}
 
+
+    #edit the user env variables
+
 # if __name__ == "__main__":
 #     get_response(4, "What hiking jackets would you recommend?", [])
 #     #get_response(argv[1], argv[2], argv[3])
